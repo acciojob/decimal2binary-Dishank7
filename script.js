@@ -1,14 +1,5 @@
-
-
-let dec = 7;
-let binary = "";
-while(dec > 0){
-    if(dec % 2 == 1){
-     binary = "1" + binary;
-    }else{
-        binary = '0' + binary;
-    }
-    dec = parseInt(dec/2);
+function decimalToBinary(num) {
+  // Write your code here
 }
 
-console.log(binary);
+window.decimalToBinary = decimalToBinary;
